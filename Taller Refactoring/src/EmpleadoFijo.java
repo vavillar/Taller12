@@ -1,4 +1,10 @@
 public class EmpleadoFijo extends Empleado {
+    public EmpleadoFijo(String nombre, double salarioBase, int horasTrabajadas, String departamento,
+            double tarifaHora) {
+        super(nombre, salarioBase, horasTrabajadas, departamento, tarifaHora);
+        //TODO Auto-generated constructor stub
+    }
+
     private double bonoAnual;
 
     @Override

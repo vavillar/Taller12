@@ -1,10 +1,10 @@
 import java.util.List;
 
 public class Empresa {
-    public List<Empleado> filtrarEmpleados(CriterioBusqueda criterio) {
-        return empleados.stream()
-            .filter(criterio::cumple)
-            .toList();
+protected List<Empleado> empleados;
+
+    public List<Empleado> filtrarEmpleados(String criterio) {
+        return empleados;
     }
 }
 
