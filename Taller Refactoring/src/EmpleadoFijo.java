@@ -10,4 +10,9 @@ public class EmpleadoFijo extends Empleado {
     protected double calcularBonoDepartamento() {
         return departamento.equals("Contabilidad") ? 10 : 0;
     }
+
+    @Override
+    protected void imprimirDetallesEspecificos() {
+        System.out.println("Bono anual: " + bonoAnual);
+    }
 }
